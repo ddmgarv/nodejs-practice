@@ -1,7 +1,7 @@
 {
     "name": "nodejs-project",
     "version": "1.0.0",
-    "description": "",
+    "description": "Just an app for playing and stuff",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
         "url": "git+https://github.com/ddmgarv/nodejs-practice.git"
     },
     "keywords": [],
-    "author": "",
+    "author": "Gustavo Rojas",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/ddmgarv/nodejs-practice/issues"

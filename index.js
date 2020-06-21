@@ -1,8 +1,13 @@
 'use strict';
 const express = require('express');
 const { readFile } = require('fs').promises;
+const { multiply } = require('./utils/mathOps');
 
 const app = express();
+
+console.log(process.argv)
+
+console.log(multiply(5, process.argv[2].split('=')[1]))
 
 app.get('/', async (request, response) => {
     console.log('REQUESTING DATA');
